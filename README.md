@@ -3,9 +3,11 @@
 🚧 Nothing is fully implemented yet — the project is in early development 🚧
 
 **TODO:**
-  - User authentication and authorization
   - Financial Data Storage: Track expenses, income, and stocks
   - User Details: Store personal user information
+
+**COMPLETE:**
+  - User registration and Auth
 
 **Future Plans**
   - Frontend: Build a React interface for user interaction
