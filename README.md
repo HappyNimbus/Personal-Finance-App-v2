@@ -17,4 +17,4 @@
   - (Coming soon — backend setup with Spring Boot and PostgreSQL will be added here.)
 
 **Usage**
-  -(Coming soon — instructions for running the app locally and interacting with the API.)
+  - (Coming soon — instructions for running the app locally and interacting with the API.)
