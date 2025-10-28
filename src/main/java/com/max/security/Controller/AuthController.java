@@ -1,6 +1,9 @@
 package com.max.security.Controller;
 
 
+import com.max.security.DTO.AuthenticationRequest;
+import com.max.security.DTO.AuthenticationResponse;
+import com.max.security.DTO.RegisterRequest;
 import com.max.security.Service.AuthService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -26,7 +29,7 @@ public class AuthController {
     }
 
     @PostMapping("/authentication")
-    public ResponseEntity<AuthenticationResponse> register(
+    public ResponseEntity<AuthenticationResponse> authenticate(
             @RequestBody AuthenticationRequest request
     ){
         return ResponseEntity.ok(service.authenticate(request));

@@ -1,9 +1,9 @@
 package com.max.security.Service;
 
 import com.max.security.Config.JwtService;
-import com.max.security.Controller.AuthenticationRequest;
-import com.max.security.Controller.AuthenticationResponse;
-import com.max.security.Controller.RegisterRequest;
+import com.max.security.DTO.AuthenticationRequest;
+import com.max.security.DTO.AuthenticationResponse;
+import com.max.security.DTO.RegisterRequest;
 import com.max.security.Enum.Role;
 import com.max.security.Repo.UserRepo;
 import com.max.security.User.User;
