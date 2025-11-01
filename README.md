@@ -3,11 +3,12 @@
 🚧 Nothing is fully implemented yet — the project is in early development 🚧
 
 **TODO:**
-  - Financial Data Storage: Track expenses, income, and stocks
+  - Financial Data Storage: Stocks
   - User Details: Store personal user information
 
 **COMPLETE:**
   - User registration and Auth
+  - Fiance and Expense tracker
 
 **Future Plans**
   - Frontend: Build a React interface for user interaction
